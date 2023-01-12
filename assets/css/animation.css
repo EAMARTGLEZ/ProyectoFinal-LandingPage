@@ -1,0 +1,35 @@
+.our-story-card{
+    background: transparent;
+    border-bottom: 8px solid #222;
+    color: #fff;
+    height: 1666px;
+    margin-bottom: 0;
+    padding: 50px 5%;
+    position: relative;
+    width: 100%;
+}
+.animation-card-container{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+.our-story-card-text {
+    flex: 0 1 auto;
+    font-size: 1.625rem;
+    font-weight: 400;
+    height: 100%;
+    padding: 0 3rem 0 0;
+    width: 52%;
+    z-index: 3;
+}
+.our-story-card-title {
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: .5rem;
+}
+.our-story-card-subtitle {
+    font-size: 1.625rem;
+    font-weight: 400;
+}

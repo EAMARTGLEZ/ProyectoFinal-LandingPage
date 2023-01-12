@@ -96,8 +96,14 @@
   display: block;
   font-size: 24px;
   font-weight: bold;
+  height: 20px;
+  line-height: 24px;
   margin: 0px auto;
-  margin-top: 5px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
 }
 .banner .card-story .card-title {
   font-size: 4.2rem;
@@ -110,21 +116,39 @@
 }
 .banner .card-story .btn {
   background-color: #e50914;
+  border: none;
   color: #fff;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-end;
   height: 56px;
   margin-top: -3px;
-  width: 186px;
+  opacity: 1;
+  width: 200px;
 }
-.banner .card-story .cta-link-wrapper .right {
-  background-color: transparent;
-  display: block;
-  height: 32px;
-  margin: 0px auto;
+.triangulo {
+  border-style: solid;
+  border-width: 18px;
+  height: 8px;
   margin-top: 5px;
-  width: 32px;
+  width: 8px;
+}
+.triangulo > div {
+  border-style: solid;
+  border-width: 10px;
+  display: block;
+  height: 8px;
+  position: relative;
+  width: auto;
+}
+
+.triangulo.right {
+  border-color: transparent transparent transparent #fff;
+}
+.triangulo.right > div {
+  border-color: transparent transparent transparent rgb(199, 199, 199);
+  top: -9.3px;
+  left: -19px;
 }
 .email-form {
   display: flex;
@@ -132,28 +156,36 @@
   margin: 0 auto;
 }
 .email-form .simple-form {
-  display: list-item;
+  /*display: list-item;
   flex: 1 0 auto;
   text-align: -webkit-match-parent;
-  vertical-align: top;
+  vertical-align: top;*/
+  margin: 0;
+  padding: 0;
+}
+.simple-form .email-wrapper {
+  display: list-item;
+  list-style: none;
+  margin-bottom: 5px;
+  margin-left: 1.1em;
+  text-align: -webkit-match-parent;
+}
+.inputPlacement {
+  position: relative;
 }
 .input-email {
   border: 1px solid #8c8c8c;
   border-radius: 2px;
-  box-sizing: border-box;
-  box-shadow: none;
   color: #000;
-  display: block;
+  display: inline-block;
   font-size: 16px;
   height: 48px;
-  padding: 10px 10px 0;
+  margin-left: 56px;
+  padding: 10px auto;
   text-align: center;
-  width: 100%
+  width: 445px;
 }
-.input-id{
-  position: relative;
-}
-.placeLabel{
+.placeLabel {
   cursor: default;
 }
 .form-title {
@@ -164,4 +196,18 @@
   margin-inline-end: 0px;
   padding-bottom: 20px;
   text-align: center;
+}
+.input-email,
+.placeLabel {
+  font-size: 16px;
+}
+
+.placeLabel {
+  color: #8c8c8c;
+  font-size: 14px;
+  left: 65px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: font 0.1s ease, top 0.1s ease, transform 0.1s ease;
 }
