@@ -20,7 +20,8 @@
     font-size: 1.625rem;
     font-weight: 400;
     height: 100%;
-    padding: 0 3rem 0 0;
+    margin: -2% 0;
+    padding: 0 0 0 3rem;
     width: 52%;
     z-index: 3;
 }
@@ -75,4 +76,19 @@ video{
     object-fit: contain;
     overflow-clip-margin: content-box;
     overflow: clip;
+}
+.second-container{
+    display: flex;
+    width: 100%;
+}
+.second-video{
+    display: block;
+    margin-top:  -15%;
+    margin-left: 15px;
+    width: 335px;
+}
+.center-pixel{
+    left: 50%;
+    position: absolute;
+    top: 50%;   
 }
