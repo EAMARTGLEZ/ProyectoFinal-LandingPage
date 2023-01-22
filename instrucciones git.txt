@@ -1,4 +1,0 @@
- git add *  // Para añadir todos los cambios y archivos al HEAD 
- git commit -m "First commit"   // Primer commit para poder subirlo al remote
- git remote add origin <<URL de tu repositorio remoto>>   // añades la rama remota y la sincronizas con la local 
- git push --set-upstream origin  https://github.com/EAMARTGLEZ/ProyectoFinal-LandingPage <// Haces push (lo mandas al repositorio remoto)
