@@ -1,94 +1,139 @@
-.our-story-card{
-    background: transparent;
-    border-bottom: 8px solid #222;
-    color: #fff;
-    height: auto;
-    margin-bottom: 0;
-    padding: 50px 5%;
-    position: relative;
-    width: 100%;
+.our-story-card {
+  background: transparent;
+  border-bottom: 8px solid #222;
+  color: #fff;
+  height: auto;
+  margin-bottom: 0;
+  padding: 50px 5%;
+  position: relative;
+  width: 100%;
 }
-.animation-card-container{
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    max-width: 1100px;
+.animation-card-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 1100px;
 }
 .our-story-card-text {
-    flex: 0 1 auto;
-    font-size: 1.625rem;
-    font-weight: 400;
-    height: 100%;
-    margin: -2% 0;
-    padding: 0 0 0 3rem;
-    width: 52%;
-    z-index: 3;
+  flex: 0 1 auto;
+  font-size: 1.625rem;
+  font-weight: 400;
+  height: 150px;
+  letter-spacing: 1;
+  margin-bottom: 25px;
+  margin-top: -50px;
+  width: 52%;
+  z-index: 3;
 }
 .our-story-card-title {
-    font-size: 3.125rem;
-    line-height: 1.1;
-    margin-bottom: .5rem;
+  font-size: 3.125rem;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
 }
 .our-story-card-subtitle {
-    font-size: 1.625rem;
-    font-weight: 400;
+  font-size: 1.625rem;
+  font-weight: 400;
 }
-.our-story-card-img-container{
-    box-sizing: border-box;
-    display: flex;
-    flex: 0 1 auto;
-    height: 100%;
-    width: 48%;
+.our-story-card-img-container {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 1 auto;
+  height: 100%;
+  width: 48%;
 }
-.our-story-card-img{
-    position: relative;
-    z-index: 2;
+.our-story-card-img {
+  position: relative;
+  z-index: 2;
 }
-img{
-    border: 0;
-    height: auto;
-    max-width: 100%;
-    overflow-clip-margin: content-box;
-    overflow: clip;
+img {
+  border: 0;
+  height: auto;
+  max-width: 100%;
+  overflow-clip-margin: content-box;
+  overflow: clip;
 }
-.our-story-card-animation-container{
-    margin: -10% -5% -5% 0;
-    overflow: hidden;
-    position: relative;
+.our-story-card-animation-container {
+  margin: -10% -5% -5% 0;
+  margin-bottom: 15px;
+  overflow: hidden;
+  position: relative;
 }
-.our-story-card-animation{
-    height: 100%;
-    left: 50%;
-    max-height: 54%;
-    max-width: 73%;
-    position: absolute;
-    top: 46%;
-    transform: translate(-50%,-50%);
-    width: 100%;
+.our-story-card-animation {
+  height: 100%;
+  left: 50%;
+  max-height: 54%;
+  max-width: 73%;
+  overflow: hidden;
+  position: absolute;
+  top: 46%;
+  transform: translate(-50%, -50%);
+  width: 100%;
 }
-.our-story-card-video{
-    height: 100%;
-    width: 100%;
+.our-story-card-video {
+  height: 100%;
+  width: 100%;
 }
-video{
-    display: inline-block;
-    object-fit: contain;
-    overflow-clip-margin: content-box;
-    overflow: clip;
+video {
+  display: inline-block;
+  object-fit: contain;
+  overflow-clip-margin: content-box;
+  overflow: clip;
 }
-.second-container{
-    display: flex;
-    width: 100%;
+.second-container {
+  display: flex;
+  width: 100%;
 }
-.second-video{
-    display: block;
-    margin-top:  -15%;
-    margin-left: 15px;
-    width: 335px;
+.second-video {
+  display: block;
+  margin-top: -15%;
+  margin-left: 15px;
+  width: 335px;
 }
-.center-pixel{
-    left: 50%;
-    position: absolute;
-    top: 50%;   
+.center-pixel {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+}
+.our-story-card-img {
+  margin-top: 5px;
+  position: relative;
+  z-index: 2;
+}
+.our-story-card-animation-image {
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin: 0 1em 0 0;
+}
+.our-story-card-animation-text {
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin: 0.3em 0;
+}
+.our-story-card-img {
+  display: flex;
+  margin-left: 15 px;
+}
+.text-0 {
+  color: #fff;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+.text-1 {
+  color: #0071eb;
+  font-size: 0.9em;
+  font-weight: 400;
+}
+.our-story-card-animation-custom {
+  background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif)
+    50% no-repeat;
+  background-size: 100%;
+  content: "";
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 0;
+  height: 3em;
+  outline: 2px solid #000;
+  outline-offset: -2px;
+  width: 3em;
 }

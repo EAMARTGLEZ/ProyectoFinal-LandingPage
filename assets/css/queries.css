@@ -1,0 +1,41 @@
+@media only screen and (min-width: 1450px),
+  only screen and (min-width: 950px) and (max-width: 1449px) {
+  .banner{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .our-story-card {
+    padding: 70px 45px;
+  }
+  .animation-card .our-story-card-text {
+    padding: 0;
+    text-align: center;
+    width: 100%;
+  }
+  .our-story-card-img-container {
+    margin-top: 1em;
+    max-width: 600px;
+    width: 100%;
+  }
+.our-story-card-animation-container{
+    margin: 0 auto;
+}
+  .our-story-card-text {
+    margin: 0;
+  }
+}
+@media only screen and (min-width: 550px) and (max-width: 949px) {
+    .banner{
+        margin: 0 45px;
+    }
+    .button-group .language{
+        margin-right: 1.5rem;
+    }
+  .our-story-card {
+    flex-direction: column;
+  }
+  .our-story-card-title {
+    font-size: 2.5rem;
+  }
+}

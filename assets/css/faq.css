@@ -1,0 +1,185 @@
+b, h1, h2, h3, h4, h5, h6, optgroup, strong {
+    font-weight: 500;
+}
+h1 {
+    font-size: 2em;
+    margin: .67em 0;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+input{
+  line-height: normal;
+}
+.our-story-card-faq {
+  background: transparent;
+  border-bottom: 8px solid #222;
+  color: #fff;
+  height: auto;
+  margin: auto;
+  margin-bottom: 0;
+  padding: 50px 5%;
+  position: relative;
+  width: 100%;
+}
+.our-story-card-text {
+  flex: 0 1 auto;
+  font-size: 1.625rem;
+  font-weight: 400;
+  height: 100%;
+  margin: auto;
+  margin-bottom: 15px;
+  padding: 0 3rem 0 0;
+  width: 52%;
+  z-index: 3;
+}
+.our-story-card-title {
+  font-size: 3.125rem;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+}
+.our-story-card-title-faq{
+  background-color: #303030;
+  font-size: 1.2em;
+  font-weight: 1.1;
+  padding: 15px;
+}
+.faq-card {
+  display: block;
+  text-align: center;
+}
+
+ .faq-question {
+  border: 0;
+  display: flex;
+  font-weight: 400;
+  margin-bottom: 2px;
+  overflow: hidden;
+  padding: 0.8em 2.2em 0.8em 1.2em;
+  position: relative;
+  width: 100%;
+}
+
+.faq-card ,
+.faq-card .faq-question {
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+}
+.faq-card .faq-answer{
+  background: #303030;
+  box-sizing: border-box;
+  display: block;
+  margin: 5px;
+  padding: 15px;
+  text-align: justify;
+  width: calc(940px - 60px);
+}
+.email-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.email-form-lockup,
+.simpleForm{
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+.structural{
+  margin: 0;
+  padding: 0;
+}
+.structural>li {
+  list-style: none;
+  margin-left: 0;
+}
+.email-form {
+  display: flex;
+  flex-direction: column;
+}
+.email-form-title {
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0 auto;
+  max-width: 860px;
+  padding: 0 5%;
+}
+.nfInput{
+  margin: 10px auto;
+}
+.nfFormSpace{
+  margin-bottom: 10px;
+}
+.nfInput .nfTextField {
+  height: 48px;
+  padding: 10px 10px 0;
+  width: 100%;
+}
+.placeLabel {
+  color: #8c8c8c;
+  cursor: default;
+  font-size: 14px;
+  left: 10px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: font .1s ease,top .1s ease,transform .1s ease;
+}
+ .btn-faq {
+  background-color: #e50914;
+  border: none;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 60px;
+  margin-left: 25px;
+  margin-top: auto;
+  opacity: 1;
+  padding: 5px;
+  width: 215px;
+}
+.triangulo {
+  border-style: solid;
+  border-width: 18px;
+  height: 8px;
+  margin-top: 5px;
+  width: 8px;
+}
+.triangulo > div {
+  border-style: solid;
+  border-width: 10px;
+  display: block;
+  height: 8px;
+  position: relative;
+  width: auto;
+}
+
+.triangulo.right {
+  border-color: transparent transparent transparent #fff;
+}
+.triangulo.right > div {
+  border-color: transparent transparent transparent rgb(199, 199, 199);
+  top: -9.3px;
+  left: -19px;
+}
+.btn-faq span{
+  margin-right: 15px;
+  margin-top: 10px;
+}
+.btn-faq .btn-small {
+  align-items: center;
+  display: flex;
+  font-size: 1rem;
+  font-weight: 700;
+  justify-content: center;
+  text-decoration: none;
+}
+.center-pixel {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+}
